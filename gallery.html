@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styleGallery.css" >
+ 
+    <title>Techstitution Project</title>
+</head>
+<body >
+
+    <header class="mt-0 pt-0">
+        <div class="bg-cover clearfix pt-3">
+            <h2 class="logo">Capture Moments</h2>
+            <nav class="nav nav-fill mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://facebook.com/fh5co" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/fh5co" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-rss"></i></a>
+                </li>
+            </nav>
+
+
+            <input type="text" id="nav-search" class="nav-search mx-auto" name="" class="form-control">
+            <div class="ml-0 mr-0 pb-1">
+                <nav class="navbar navbar-expand-md">
+
+                    <button class="navbar-toggler ml-auto" data-target="#my-nav" data-toggle="collapse"
+                        aria-controls="my-nav" aria-expanded="false" onclick="myFunction(this)"
+                        aria-label="Toggle navigation">
+                        <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span>
+                    </button>
+                    <div id="my-nav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">KRYEFAQJA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="article.html">LAJME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">GALLERY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Camera.html">KAMERA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Life.html">JET&Euml</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contact.html">KONTAKT</a>
+                            </li>
+                            <li class="nav-item">
+                                <form action="" method="POST">
+                                    <div class="input-group mt-0 mx-auto" style="width:16px;">
+
+                                        <div class="">
+                                            <img src="assets/images/search-icon.png" id="toggle-search"
+                                                class="ml-2 toggle-search" alt="search icon">
+                                        </div>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+<br>
+
+        <br>
+        <br>
+        <br>
+<div class="cont">
+    <div class="txt1" data-text="Gallery">Gallery</div>
+</div>
+
+<br>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="assets/images/Kacanik.jpg" style="width:100%;height:600px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="assets/images/prizren.jpg" style="width:100%;height:600px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="assets/images/ferizaj.jpg" style="width:100%;height:600px">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="assets/images/peja.jpg" style="width:100%;height:600px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="assets/images/prishtina.jpg" style="width:100%;height:600px">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="assets/images/gjakova.jpg" style="width:100%;height:600px">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="assets/images/Kacanik.jpg" style="width:100%;height:150px" onclick="currentSlide(1)" alt="Kacaniku">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/prizren.jpg" style="width:100%;height:150px" onclick="currentSlide(2)" alt="Prizren">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/ferizaj.jpg" style="width:100%;height:150px" onclick="currentSlide(3)" alt="Ferizaj">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/peja.jpg" style="width:100%;height:150px" onclick="currentSlide(4)" alt="Peja">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/prishtina.jpg" style="width:100%;height:150px" onclick="currentSlide(5)" alt="Prishtina">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="assets/images/gjakova.jpg" style="width:100%;height:150px" onclick="currentSlide(6)" alt="Gjakova">
+    </div>
+  </div>
+</div>
+</div>
+
+
+<h1 style="font-family:Derivia Regular;text-align:center;color:gray;margin-top:90px;">Sunset Photo's</h1>
+<section class="fotorrotulluese">
+        <div class="permbajtja">
+            <div class="permbajtja-1">
+                    <figure class="shadow">
+                    <a href="assets/images/g1.jpg">
+                        <img src="assets/images/g1.jpg">
+                    </a>
+                </figure>
+                <figure class="shadow">
+                    <a href="assets/images/g2.jpg">
+                        <img src="assets/images/g2.jpg">
+                    </a>
+                </figure>
+                <figure class="shadow">
+                    <a href="assets/images/g3.jpg">
+                        <img src="assets/images/g3.jpg">
+                    </a>
+                </figure>
+                <figure class="shadow">
+                    <a href="assets/images/g4.jpg">
+                        <img src="assets/images/g4.jpg">
+                    </a>
+                </figure>
+                <figure class="shadow">
+                    <a href="assets/images/g5.jpg">
+                        <img src="assets/images/g5.jpg">
+                    </a>
+                </figure>
+                <figure class="shadow">
+                    <a href="assets/images/g6.jpg">
+                        <img src="assets/images/g6.jpg">
+                    </a>
+                </figure>
+                <figure class="shadow">
+                    <a href="assets/images/g7.jpg">
+                        <img src="assets/images/g7.jpg">
+
+                    </a>
+                    
+                </figure>
+                <figure class="shadow">
+                    <a href="assets/images/g8.jpg">
+                        <img src="assets/images/g8.jpg">
+                    </a>
+                    
+                </figure>
+                <figure class="shadow">
+                    <a href="assets/images/g9.jpg">
+                        <img src="assets/images/g9.jpg">
+                    </a>   
+            </div>
+        </div>
+    </section>
+<div class="main">
+<div id="myBtnContainer">
+  <button class="btno active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btno" onclick="filterSelection('nature')"> Nature</button>
+  <button class="btno" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btno" onclick="filterSelection('people')"> People</button>
+</div>
+<div class="rowi">
+  <div class="columni nature">
+    <div class="contenti">
+      <img src="assets/images/m1.jpg" alt="Mountains" style="width:100%">
+      <h4>Mountains</h4>
+      <a href="#"style="text-decoration:none;color:red;">See more</a>
+    </div>
+  </div>
+  <div class="columni nature">
+    <div class="contenti">
+    <img src="assets/images/m2.jpg" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <a href="#"style="text-decoration:none;color:red;">See more</a>
+    </div>
+  </div>
+  <div class="columni nature">
+    <div class="contenti">
+    <img src="assets/images/m3.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <a href="#"style="text-decoration:none;color:red;">See more</a>
+    </div>
+  </div>
+  
+  <div class="columni cars">
+    <div class="contenti">
+      <img src="assets/images/m4.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <a href="#"style="text-decoration:none;color:red;">See more</a>
+    </div>
+  </div>
+  <div class="columni cars">
+    <div class="contenti">
+    <img src="assets/images/m5.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <a href="#"style="text-decoration:none;color:red;">See more</a>
+    </div>
+  </div>
+  <div class="columni cars">
+    <div class="contenti">
+    <img src="assets/images/m6.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <a href="#"style="text-decoration:none;color:red;">See more</a>
+    </div>
+  </div>
+
+  <div class="columni people">
+    <div class="contenti">
+      <img src="assets/images/m7.jpg" alt="Car" style="width:100%">
+      <h4>Girl</h4>
+      <a href="#"style="text-decoration:none;color:red;">See more</a>
+    </div>
+  </div>
+  <div class="columni people">
+    <div class="contenti">
+    <img src="assets/images/m8.jpg" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <a href="#"style="text-decoration:none;color:red;">See more</a>
+    </div>
+  </div>
+  <div class="columni people">
+    <div class="contenti">
+    <img src="assets/images/m9.jpg" alt="Car" style="width:100%">
+      <h4>Woman</h4>
+      <a href="#"style="text-decoration:none;color:red;">See more</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript">
+    function buttonclick()
+    {
+        window.location="Contact.html";
+    }
+</script>
+<hr>
+<footer style="width:auto;margin-top:10px">
+<ul id="njeshi">
+<li><img src="assets/images/g5.jpg" id="drag1" draggable="true" ondragstart="drag(event)" width="336" height="69"></li>
+
+</ul>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+</footer>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("columni");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btno");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[1].className = current[1].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</body>
+</html>
